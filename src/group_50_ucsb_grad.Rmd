@@ -1,0 +1,18 @@
+---
+title: "UCSB Domestic Grad Enrollment Group 50"
+author: "Shane Dewees & Allison Horst"
+date: "11/29/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+```
+
+## Read in data
+```{r}
+ucsb_grad <- read_csv(here("data","ucsb_grad_data.csv"))
+```
+
